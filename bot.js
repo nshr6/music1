@@ -15,9 +15,9 @@ client.on('ready', () => { console.log(`${client.user.tag} Yo this ready!`)
 client.user.setStatus("idle")
 client.user.setActivity("1play", {type : 'Listening'});
  setInterval(() => {
-var channel = client.channels.get("514400044670124032");
+var channel = client.channels.get("514415401233285135");
 channel.join();
-}, 1000);
+}, 3000);
 });
 client.on('disconnect', () => console.log('I just disconnected, making sure you know, I will reconnect now...'));
 client.on('reconnecting', () => console.log('I am reconnecting now!'));
