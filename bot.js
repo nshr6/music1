@@ -13,7 +13,7 @@ client.on('warn', console.warn);
 client.on('error', console.error);
 client.on('ready', () => { console.log(`${client.user.tag} Yo this ready!`)
 client.user.setStatus("idle")
-client.user.setActivity("4play", {type : 'Listening'});
+client.user.setActivity("1play", {type : 'Listening'});
  setInterval(() => {
 var channel = client.channels.get("514400044670124032");
 channel.join();
